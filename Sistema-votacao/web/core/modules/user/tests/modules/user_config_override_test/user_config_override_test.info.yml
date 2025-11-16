@@ -1,0 +1,9 @@
+name: 'Permission config overrider'
+type: module
+package: Testing
+# version: VERSION
+
+# Information added by Drupal.org packaging script on 2025-11-13
+version: '11.1.9'
+project: 'drupal'
+datestamp: 1762992166
