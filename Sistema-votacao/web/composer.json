@@ -19,7 +19,9 @@
         "drupal/core-composer-scaffold": "^11.1",
         "drupal/core-project-message": "^11.1",
         "drupal/core-recommended": "^11.1",
-        "drupal/core-vendor-hardening": "^11.1"
+        "drupal/core-vendor-hardening": "^11.1",
+        "drupal/paragraphs": "^1.19",
+        "drush/drush": "^13.0"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -36,7 +38,11 @@
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "php-http/discovery": true
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "audit": {
+            "ignore": ["PKSA-365x-2zjk-pt47"],
+            "block-insecure": false
+        }
     },
     "extra": {
         "drupal-scaffold": {

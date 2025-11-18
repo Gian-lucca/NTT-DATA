@@ -1,0 +1,14 @@
+name: FormApp
+type: theme
+description: 'Tema básico Sistema de Votação Simples'
+base theme: olivero
+core_version_requirement: '^10 || ^11'
+package: Custom
+
+libraries:
+  - formapp/global-styling
+
+regions:
+  header: Header
+  content: Content
+  footer: Footer

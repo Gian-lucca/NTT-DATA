@@ -1,0 +1,25 @@
+/* Reset/tipografia básica */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+}
+
+.site-header {
+  background-color: #add8e6;
+  padding: 20px;
+}
+
+.site-content {
+  padding: 20px;
+}
+
+.site-footer {
+  background-color: #003366;
+  color: #fff;
+  padding: 20px;
+}
+
+.site-footer a {
+  color: #fff;
+}
